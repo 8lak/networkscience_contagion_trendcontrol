@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local/editor state
+.codex
+.agents/
+.vscode/
+.idea/
+.git_real/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Large or reproducible data/artifacts
+data/twitter.tar.gz
+pagerank.pdf
+models/
+*.zip
+*.log
+*.gif
+
+# Layout caches and generated scratch outputs
+results/**/layout_*.npz
+results/visualizations/quick_*.png
+
+# Keep paper-facing result tables and figures.
+!results/**/*.csv
+!results/**/*.png
+results/visualizations/quick_*.png

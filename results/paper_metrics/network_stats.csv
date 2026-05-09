@@ -1,0 +1,2 @@
+nodes,edges,avg_degree,connected_components,avg_clustering,diameter
+4039,88234,43.69101262688784,1,0.6055467186200876,8
